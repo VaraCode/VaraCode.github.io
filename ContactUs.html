@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prompt:400,500italic"/> 
+        <title> Red </title>
+    </head>
+    <body>
+        <!-- sidebar has a cardinal photo -->
+
+        <div class="sidebar">
+            <ul class="nav">
+                <img id="logo" src="images/home/logoresize.png" />
+                <p id="title">RED</p>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="menu.html"><li>MENU</li></a>
+                <a href="ContactUs.html"><li>CONTACT US</li></a>
+                <a href="events.html"><li>EVENTS</li></a>
+            </ul>
+        </div>
+        <div class="contactus">
+            <!-- contactus div wraps my whole page-->
+            <h1 class="contactusheader">Contact Us</h1>
+            <div class="contactusaddress">
+                <p>Red</p>
+                <p>455 Fifth Avenue (corner of 40th Street)</p>
+                <p>NY, NY 10016</p>
+                <p>Telephone: (555) 555-1234</p>
+                <p>Email: info@redrestaurant.com</p>
+            </div>
+            <div class="contactusform1">
+                <form>
+                    First Name: <br>
+                    <input type="text" name="firstname"><br>
+                    Telephone: <br>
+                    <input type="text" name="telephone">
+                </form>
+            </div>
+            <div class="contactusform2">
+                <form>
+                    Last Name: <br>
+                    <input type="text" name="lastname"><br>
+                    Email: <br>
+                    <input type="text" name="email"><br>
+                </form>
+            </div>
+            <div class="comment">
+                <label >Leave a comment:</label>
+                    <textarea name="comments" maxlength="350"></textarea>
+                <button type="Button">Submit</button>
+            </div>
+            <div class="reservations">
+                <!-- Reservations div -->
+                <h1 class="reservartionsheader">Reservations</h1>
+                <h3 class="reservationsphone">Please call (555) 555-1234 or book online:</h3>
+                <div class="reservationstable">   
+                    <table>
+                        <!--Wish I already knew javascript for this table -->
+                        <th>Party Size</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </table>  
+                </div>
+                <div class="reservationsform">
+                <form >
+                    First name:<br>
+                    <input type="text" name="firstname"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname"><br>
+                    Telephone:<br>
+                    <input type="text" name="telephone"><br>
+                    Email:<br>
+                    <input type="text" name="email"><br>
+                </form>
+                <label>Additional Requests</label>
+                    <textarea name="comments" maxlength="350"></textarea>
+                    <button type="Button">Submit</button>
+                </div>
+            </div>
+            <div class="locationmap">
+                <!-- check out my border-radius  -->
+                <img src="images/locationmap.PNG" class="locationmapimg"></img>
+                <div class="locationp">
+                    <p>Red is located on the 4th Floor of the Mid-Manhattan Library.</p>
+                    <p>Featuring beautiful views of Fifth Avenue and modern cuisine.</p>
+                    <p>Join us for great food, music and books!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

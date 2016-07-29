@@ -1,0 +1,316 @@
+body {
+    width: 960px;
+    height: 720px;
+    margin: 0px;
+    padding: 0px;
+    background-color:#b30000;
+}
+
+.sidebar {
+    width: 240px;
+    height: 720px;
+    float: left;
+    background-color:#b30000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-style: italic;
+    font-style: bold;
+    margin: none;
+    position: relative;
+    bottom: 30px;
+   
+}
+
+#logo {
+    margin: none;
+}
+
+
+.homepic {
+    float: right;
+    width: 720px;
+}
+
+
+.nav li {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    bottom: 40px;
+}
+
+/* Contactus page css starts here*/
+
+.contactus {
+    float: right;
+    color: #e60000;
+    width: 720px;
+    background-color: #ffffcc;
+    font-family: 'Prompt';
+}
+
+.contactussidebar {
+    height: 100%;
+}
+
+.contactusaddress {
+    text-align: center;
+}
+
+.contactusheader {
+    text-align:center;
+    padding-bottom: .5cm;
+}
+.contactusform1 {
+    padding-top: 1cm;
+    float:left;
+    width:360px;
+    text-align: center;
+}
+
+.contactusform2 {
+    padding-top: 1cm;
+    float:right;
+    width:360px;
+    text-align: center;
+}
+
+.comment {
+    padding-top: 4cm;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 450px;
+}
+
+.reservations {
+    float: initial;
+    padding-top: .5cm;
+    padding-bottom: 2cm;
+    text-align: center;
+
+}
+.reservartionsheader {
+    text-align:center;
+}
+
+.reservationsphone {
+    text-align: center; 
+    padding-bottom: .5cm;
+}
+
+table, th, td {
+    border: 1px solid #e60000 ;
+    padding:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservationsform {
+    padding-top: 1cm;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #ffd9b3;
+    color: #e60000;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+
+.locationmap {
+    float: clear;
+    padding-top: 1cm;
+    text-align: center;
+}
+
+.locationmapimg {
+    width: 55%;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.locationp {
+    padding-top: 2.5cm;
+    float: right;
+    width: 43%;
+}
+
+/* ContactUs page css ends */
+
+    
+/*PARK-important menu starts here*/
+
+.menu{
+    width:720px;
+    height: 720px;
+    position: relative;
+    float:right;
+    background-color:#b30000;
+    margin-left: 400px;
+}
+
+.dinner> div{
+    display:inline-block;
+    background-color:#ffffcc;
+    margin:3px 30px 3px 30px;
+    padding:3px 30px 3px 30px;
+
+}
+.menu h1{
+    text-align:center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Comic Sans MS', sans-serif;
+    color:#e60000;
+}
+.menu h3{
+    text-align:center;
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Comic Sans MS', sans-serif;
+    color:#e60000;
+}
+
+.menu p{
+    font-family: 'Prompt', sans-serif;
+    text-align:center;
+    font-size:13px;
+    color:#e60000;
+}
+.menu h5{
+    font-family: 'Prompt', sans-serif;
+    text-align:center;
+    color:#e60000;
+}
+.menuitem {width: 70%;}
+
+
+/*PARK-important menu ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Begin Upcoming Events formatting*/
+
+#calendar {
+    float: right;
+}
+
+#calendar th {
+    font-family: 'Prompt', sans-serif;
+    color: #e60000;
+    font-size: 2em
+    ;
+    text-align: center;
+}
+
+#calendar td {
+    font-family: 'Prompt', sans-serif;
+    color: #e60000;
+    position: relative;
+    padding: 2px 0px 0px 0px;
+    text-align: right;
+    vertical-align: bottom;
+    width: 95px;
+    height: 70px;
+    border-collapse: collapse;
+    background-color:  #ffffcc;
+}
+
+#calendar td div {
+    display: none;
+}
+
+#calendar td > img:hover + div {
+    display: block;
+    position: absolute;
+    font-style: italic;
+    text-align: center;
+    z-index: 10;
+    top: -5px;
+}
+
+    
+/*End Upcoming Events formatting*/
