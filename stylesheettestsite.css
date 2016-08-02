@@ -1,0 +1,95 @@
+body {
+    margin: auto;
+    width: 960px;
+ 
+}
+
+ul {
+    background-color: lightgray;
+   
+}
+
+li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    color: grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: orange;
+    
+    
+}
+
+img {
+    width: 100%;
+           
+}
+
+.aboutus {
+    clear: left;
+}
+
+.p1 {
+    float:left;
+}
+
+.aboutus1 {
+    clear:left;
+}
+
+.photo2 {
+    width: 450px;
+    float: right;
+}
+    
+.p2 {
+    float:right;
+}
+
+
+.text {
+    float: left;
+    width: 70%;
+}
+
+.quote {
+    float: right;
+    width: 30%;
+    border-bottom: 1px solid black;
+    
+}
+
+.pull {
+    color: orange;
+    float: right;
+    
+}
+
+.upcomingevents {
+    clear: both;
+}
+
+table {
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+}
+    
